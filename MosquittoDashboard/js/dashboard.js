@@ -1,6 +1,8 @@
-var ip = "m10.cloudmqtt.com";
-var port = "37629";
-var usessl = true;
+//var ip = "m10.cloudmqtt.com";
+var ip = "britomartis.fulgurit.eu";
+//var port = "37629";
+var port = "1883";
+var usessl = false;
 var id = (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
 var username = '';
 var password = '';
